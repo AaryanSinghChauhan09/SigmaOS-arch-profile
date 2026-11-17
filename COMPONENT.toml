@@ -3,7 +3,7 @@ name = "SigmaOS-arch-profile"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-profile component"
+description = "SigmaOS SigmaOS-arch-profile component"
 upstream = []
 
 [contract]
