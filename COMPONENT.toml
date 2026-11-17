@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-arch-profile"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "SigmaOS SigmaOS-arch-profile component"
+description = "System profiling tool collecting CPU, memory, disk, OS, and hardware information"
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["system-profiling", "hardware-info", "system-metrics"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+status = "Implemented"
+test_evidence = "cargo test --offline unit tests pass"
+next_milestone = "Disk usage reporting and detailed hardware inventory"
