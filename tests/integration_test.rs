@@ -1,7 +1,7 @@
-// Integration test for SigmaOS-arch-profile
+// Integration test for SigmaOS-profile
 // Verifies the crate builds and links as a dependency.
 
-use sigmaos_arch_profile::SystemProfiler;
+use sigmaos_profile::SystemProfiler;
 
 #[test]
 fn crate_links_and_runs() {

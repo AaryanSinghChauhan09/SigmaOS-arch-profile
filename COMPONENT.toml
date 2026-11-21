@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-profile"
+name = "SigmaOS-profile"
 tier = 2
 stability = "beta"
 language = "rust"

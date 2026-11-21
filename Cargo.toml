@@ -1,13 +1,13 @@
 [package]
-name = "sigmaos-arch-profile"
+name = "sigmaos-profile"
 version = "0.1.0"
 edition = "2021"
 description = "System profiling tool for SigmaOS"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-profile"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-profile"
 
 [dependencies]
 
 [lib]
-name = "sigmaos_arch_profile"
+name = "sigmaos_profile"
 path = "src/lib.rs"

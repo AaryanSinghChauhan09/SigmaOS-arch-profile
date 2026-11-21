@@ -1,6 +1,6 @@
-# SigmaOS-arch-profile
+# SigmaOS-profile
 
-SigmaOS SigmaOS-arch-profile component
+SigmaOS SigmaOS-profile component
 
 - **Category:** Components
 - **Engine:** component
